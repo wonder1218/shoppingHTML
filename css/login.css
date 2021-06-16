@@ -1,0 +1,300 @@
+#root{
+	width: 1535px;
+}
+.silder{
+	float: left;
+	width: 375px;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	height: 500px;
+}
+.ant{
+	width: 375px;
+	height: 500px;
+}
+.content{
+	/* float: right; */
+	margin-left: 375px;
+}
+.scroll{
+	height: 100%;
+	overflow: auto;
+	width: 1161px;
+}
+.layout{
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 40px;
+	width: 1144px;
+}
+.layout .mi-layout-header{
+	padding: 20px;
+	overflow: hidden;
+	height: 40px;
+}
+.layout-title{
+	width: 154px;
+	float: left;
+	height: 40px;
+	font-size: 26px;
+	font-weight: 500;
+	color: #333;
+	line-height: 40px;
+}
+.mi-nav{
+	float: right;
+	width: 356px;
+	height: 40px;
+}
+.mi-nav a{
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    display: inline-block;
+	    height: 40px;
+	    font-size: 14px;
+	    font-weight: 400;
+	    color: #838383;
+	    line-height: 40px;
+		font-size: 14px;
+}
+.divider{
+	    vertical-align: middle;
+	    display: inline-block;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    height: 14px;
+	    width: 0;
+	    border-right: 1px solid #ddd;
+}
+.mi-item{
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    display: inline-block;
+	    height: 40px;
+	    font-size: 14px;
+	    font-weight: 400;
+	    color: #838383;
+	    line-height: 40px;
+}
+/* 登录注册开始 */
+.layout-container{
+	width: 1144px;
+	height: 685px;
+	position: relative;
+	text-align: center;
+}
+.toast{
+	width: 100%;
+	height: 0;
+	position: absolute;
+}
+.card{
+	height: 600px;
+	text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 40px 45px;
+    position: relative;
+    margin: 0 auto 80px;
+    min-width: 450px;
+    box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+}
+.switch{
+	text-align: left;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	/* width: 64px;
+	height: 64px; */
+	opacity: .4;
+	transition: all .3s cubic-bezier(.645,.045,.355,1);
+	border-color: #ff5c00 #ff5c00 rgba(0,0,0,0) rgba(0,0,0,0);
+	border-style: solid;
+	border-width: 32px;
+	background-size: cover;
+}
+.anticon{
+	position: absolute;
+	font-size: 36px;
+	top: -22px;
+	right: -22px;
+    display: inline-block;
+    color: inherit;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+.ant-tabs{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: rgba(0,0,0,.65);
+	font-size: 14px;
+	font-variant: tabular-nums;
+	line-height: 1.5;
+	list-style: none;
+	-webkit-font-feature-settings: "tnum","tnum";
+	font-feature-settings: "tnum","tnum";
+	position: relative;
+	zoom: 1;
+	width: 360px;
+	height: 375px;
+}
+.tablist{
+	width: 360px;
+	height: 40px;
+	border-bottom: none;
+	margin: 0 0 10px;
+}
+.ant-tabs-nav{
+	position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: nowrap;
+    zoom: 1;
+	width: 360px;
+	height: 40px;
+}
+/* .ant-tabs-nav span{
+	filter: none;
+	left: 0;
+	color: rgba(0,0,0,.25);
+	cursor: not-allowed;
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 100%;
+    color: rgba(0,0,0,.45);
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: width .3s cubic-bezier(.645,.045,.355,1),opacity .3s cubic-bezier(.645,.045,.355,1),color .3s cubic-bezier(.645,.045,.355,1);
+    transition: width .3s cubic-bezier(.645,.045,.355,1),opacity .3s cubic-bezier(.645,.045,.355,1),color .3s cubic-bezier(.645,.045,.355,1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+} */
+.title li{
+	float:left;
+	width:100px;
+	height: 35px;
+	border:1px solid #ccc;
+	line-height: 35px;
+	cursor: pointer;
+	margin-right: 40px;
+	text-align: center;
+}
+.title li.active{
+	background-color: #FF6600;
+	color:#fff;
+}
+.ant-tabs-content{
+	width: 360px;
+	height: 300px;
+}
+.ant-tabs-content input{
+	width: 366px;
+	height: 62px;
+	border: none;
+	font-size: 17px;
+	color: #333;
+	line-height: 20px;
+	background:#f9f9f9;
+}
+.ant-tabs-content button{
+	width: 366px;
+	height: 62px;
+	border: none;
+	font-size: 17px;
+	color: white;
+	line-height: 20px;
+	background:#ffbe99;
+	
+}
+.mi-form-action{
+	font-size: 17px;
+	margin-bottom: 10px;
+	
+}
+.mi-form-action a{
+	color: #ff5c00;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	cursor: pointer;
+}
+
+.start{
+	float: left;
+}
+.end{
+	float: right;
+}
+.others{
+	width: 360px;
+	height: 96px;
+}
+.mi-sns-login__title{
+	text-align: center;
+	    font-size: 17px;
+	    font-weight: 400;
+	    color: #aaa;
+	    line-height: px;
+}
+.login-content{
+	width: 360px;
+	height: 50px;
+	text-align: center;
+	font-size: 17px;
+	color: #AAAAAA;
+	margin-top: 10px;
+}
+.login-content-list{
+	width: 360px;
+	height: 50px;
+	text-align: center;
+}
+.login-content-list li{
+	float: left;
+}
+.list-item{
+	display: inline-block;
+	width: 46px;
+	margin: 0 12px;
+	float: left;
+	
+}
+.list-item ul{
+	width: 360px;
+}
+.list-item li{
+	float: left;
+	margin-left: 30px;
+}
+.item-a{
+	float: left;
+	display: block;
+	margin: 0 auto;
+	font-size: 46px;
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	
+	
+}
+/* 登录注册结束 */

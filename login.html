@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="小米帐号，小米账号，小米注册，注册，Mi Account，Sign in，小米，帐号，账号，小米帐户，登录，登陆，安全令牌，动态口令，小米注册，找回密码" data-react-helmet="true">
+		<meta name="description" content="小米帐号能使用小米手机，MIUI，小米云，多看阅读，米聊，小米社区等小米服务。" data-react-helmet="true">
+		<title>小米账号-登录</title>
+		<link rel="shortcut icon" href="images/logo/logo.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	</head>
+	<body >
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root">
+			<div class="mi-layout">
+				<div class="silder">
+					<div class="ant">
+						
+						<img src="images/page/3.webp" >
+					</div>
+				</div>
+				<div class="content">
+					<div class="scroll">
+						<div class="layout">
+							<div class="mi-layout-header">
+								<div class="layout-title">
+									<a href="index.html"><img src="images/logo/logo-mi2.png" width="56px" height="56px" ></a>
+									
+									
+								</div>
+								
+								<div class="mi-nav">
+									<a href="">用户协议</a>
+									<a href="">隐私政策</a>
+									<a href="">帮助中心</a>
+									<div class="divider">
+										
+									</div>
+									<div class="mi-item">
+										<div class="mi-language">
+											‎中文(简体)‎
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 登录注册开始 -->
+							<div class="layout-container" style="padding-top: 20px;">
+								<div class="toast">
+									
+								</div>
+								<div class="card">
+									<div class="switch" >
+										<i class="anticon">
+											<svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><path d="M0 16.977H16.94V.036H0v16.941zM4.235 4.271h8.47v8.47h-8.47v-8.47zM19.06.036v16.941h16.94V.036H19.06zm12.706 12.706h-8.471v-8.47h8.47v8.47zM6.353 10.624h4.235V6.39H6.353v4.235zM0 36.036H16.94V19.095H0v16.94zM4.235 23.33h8.47v8.47h-8.47v-8.47zM29.647 6.389h-4.235v4.235h4.235V6.39zM19.059 36.036h4.235V31.8h-4.235v4.235zm4.235-12.706v8.47h4.235v-8.47h-4.235zm8.47 8.47H27.53v4.236H36v-8.47h-4.234V31.8zm0-8.47H36v-4.235h-4.235v4.235zM19.06 19.095v4.235h4.235v-4.235h-4.235zM6.353 29.683h4.235v-4.235H6.353v4.235z" fill="#FFF" fill-rule="nonzero"></path></svg>
+										</i>
+										<!-- <div class="title-img coon">
+											<img src="images/logo/下载.png" >
+										</div> -->
+									</div>
+									
+									
+									<div class="tablist">
+										<div class="ant-tabs-nav">
+											
+												<ul class="title">
+													<li class="active" id="login"  >登录</li>
+													<li id="li">注册</li>
+													
+												</ul>
+											
+										</div>
+										
+									</div>
+									<div class="ant-tabs">
+										
+										
+										<div tabindex="0" role="presentation" style="width: 0px; height: 0px; overflow: hidden; position: absolute;"></div>
+										<div class="ant-tabs-content con" style="display: block;" id="con">
+											<form action="" method="">
+												<input type="text" name="username" id="username" value="" placeholder="邮箱/手机号码/小米ID"onkeypress="if(event.keyCode==9) focusNextInput(this); "/>
+												
+												<br>
+												<input type="password" name="password" id="password" value="" placeholder="密码" onkeypress="if(event.keyCode==9) focusNextInput(this);"/>
+												<br>
+												<button id="button" class="button" type="button" onclick="check()">登录</button>
+											</form>
+											<div class="mi-form-action start">
+												<a href="">忘记密码？</a>
+											</div>
+											<div class="mi-form-action end">
+												<a href="">手机号登录</a>
+											</div>
+											
+										</div>
+										<div class="ant-tabs-content conn" style="display: none;" id="conn">
+											<form action="" method="">
+												<input type="text" name="" id="telphone" value="" placeholder="请输入你的手机号码" onkeypress="if(event.keyCode==9) focusNextInput(this);"/>
+												
+												<br>
+												<input type="password" name="" id="password1" value="" placeholder="请输入你的密码"onkeypress="if(event.keyCode==9) focusNextInput(this);" />
+												<br>
+												<button id="button1" class="button1" type="button" onclick="register()" >注册</button>
+											</form>
+											
+											
+										</div>
+										<div class="others">
+											<div class="mi-sns-login__title">其他方式登录</div>
+											<div class="login-content">
+												<div class="login-content-list">
+													<div class="list-item">
+														<ul>
+															<li><a href="" class="item-a">
+															<img src="images/footer/qq.jpg" width="46px"height="46px" >
+														</a></li>
+														<li><a href="" class="item-a">
+															<img src="images/footer/wb1.jpg" width="46px"height="46px" >
+														</a></li>
+														<li><a href="" class="item-a">
+															<img src="images/footer/aply.jpg" width="46px"height="46px" >
+														</a></li>
+														<li><a href="" class="item-a">
+															<img src="images/footer/wx3.jpg" width="46px"height="46px" >
+														</a></li>
+														</ul>
+														
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+								</div>
+							</div>
+							<!-- 登录注册结束 -->
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script src="js/login.js" type="text/javascript" charset="utf-8"></script>

@@ -1,0 +1,71 @@
+html{
+	color:#000;
+	background:#FFF;
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a{
+	color: #b0b0b0;
+	
+}
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12, .span13, .span14, .span15, .span16, .span17, .span18, .span19, .span20 {
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	display: block;
+}
+fieldset, img{
+	border:0;
+}
+input,select,textarea{
+	outline:none;
+}
+textarea{
+	resize:none;
+}
+a{
+	text-decoration:none;
+	
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol,
+ul {
+	list-style:none;
+}
+
+caption,
+th {
+	text-align:left;
+}
+/* 万能清除浮动*/
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+    content: '\20';
+    display:table;
+    clear:both;
+	height: 0;
+}
